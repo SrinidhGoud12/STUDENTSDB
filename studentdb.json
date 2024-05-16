@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Srinidh",
+      "age": "12",
+      "course": "IT"
+    },
+    {
+      "id": "2",
+      "name": "chakri",
+      "age": "19",
+      "course": "VSX"
+    },
+    {
+      "id": "16",
+      "name": "kanna",
+      "age": "2",
+      "course": "sda"
+    }
+  ]
+}

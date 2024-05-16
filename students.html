@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="fetchStudents()">
+    <center>
+        <div>
+            <h1>Student Information</h1>
+            <form id="studentForm">
+                <input type="number" id="studentId" placeholder="RollNo" required>
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="number" id="age" placeholder="Age" required>
+                <input type="text" id="course" placeholder="Course" required>
+                <button type="button" onclick="addStudent()">Add Student</button>
+                <button type="button" onclick="updateStudent()">Update Student</button>
+            </form>
+        </div>
+    </center>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody"></tbody>
+    </table>
+    <script src="students.js"></script>
+</body>
+</html>
